@@ -1,12 +1,10 @@
 /*
- * Liron Himbert - 337731797
- * Yossef Simhon - 311217020*/
-public class MarineAnimalDecorator implements MarineAnimal
-{
+ * Liron Himbert - 337731797*/
+public class MarineAnimalDecorator implements MarineAnimal {
 	public MarineAnimal animal;
-	
+
 	public MarineAnimalDecorator(MarineAnimal animal) {
-		this.animal=animal;
+		this.animal = animal;
 	}
 
 	public void PaintFish() {
