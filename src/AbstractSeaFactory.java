@@ -1,0 +1,9 @@
+/*
+ * Liron Himbert - 337731797
+ * Yossef Simhon - 311217020*/
+public abstract class AbstractSeaFactory {
+
+	public abstract SeaCreature produceSeaCreature(String type);
+	public abstract SeaPlant produceSeaPlant(String type);
+	
+}
